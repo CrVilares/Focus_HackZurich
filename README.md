@@ -1,1 +1,46 @@
-# Focus_HackZurich
+# Focus – A prevention driving simulator
+
+## Developer:
+Michel Hostettler
+Cristofo Vilares
+
+## About Focus:
+Focus is a prevention driving simulator, developed as a prototype during the HackZurich 2016.
+The purpose of the virtual reality prototype is to demonstrate how dangerous it is to use your smarphone during driving a car.
+
+## Technologies:
+Focus is based on Unity3d and during the HackZurich. During the test it will run on a Samsung S6 Edge with a Samsung Gear VR and an XBox controller or a Samsung controller. 
+
+## The Vision:
+Every driver has some driving habits that may be dangerous. Our vision is to provide a solution, for showing someone, how dangerous a bad habit can be and to show what can happen in the worst case. A possible provider for the prevention driving simulator is an isurance company with specialisation on non-health products. 
+
+From business side it gives the possibility to get informations about the driving habit of an insured customer. An Insurance can assign customers to risk groups and predict a possible risk. To make the simulator test attractive to someone, a bonus on the insurance payment.
+
+## Feature ideas:
+1. Customer prevention:
+  - driving a car through a city with oncoming traffic and pedestrians
+  - smartphone screen fixed on a position, usual low position hiding from cops ;)
+  - sound or vibrating to notificate driver
+  - game over when colision happens
+2. Overall features:
+  - generate 3d model from google maps, for getting driving habit within real environment
+  - show/check driving habit in known and unknown regions
+3. business analisys:
+  - check habit of car driver for risk group assignment
+    1. looking to the mirrors, looking what happens around
+    2. agressive driving: Acceleration, speed, braking before curve
+
+## Checklist features
+1. Done:
+2. In development:
+  - minimized concept
+  - Standard driving simulator 
+  - Controller integration
+3. Backlog:
+  - game over on collision
+  - fixed smartphone position in car
+  - smartphone vibration or signalisation
+  - event when looking around (mirror looking)
+  - acceleration measurement
+  - speed measurement
+  - deceleration before curves
