@@ -11,7 +11,9 @@ The purpose of the virtual reality prototype is to demonstrate how dangerous it 
 Focus is based on Unity3d and during the HackZurich. During the test it will run on a Samsung S6 Edge with a Samsung Gear VR and an XBox controller or a Samsung controller. 
 
 ## The Vision:
-Every driver has some driving habits that may be dangerous. Our vision is to provide a solution, for showing someone, how dangerous a bad habit can be and to show what can happen in the worst case. A possible provider for the prevention driving simulator is an isurance company with specialisation on non-health products. 
+Every driver has some driving habits that may be dangerous. Our vision is to provide a solution, for showing someone, how dangerous a bad habit can be and to show what can happen in the worst case. A possible provider for the prevention driving simulator is an isurance company with specialisation on non-health products.
+
+The integration of a convertion from google maps to 3D objects is a feature that will enable more realistic results from a analysis. The behavior and the driving habit of a driver is different when he is not taking known routes.  
 
 From business side it gives the possibility to get informations about the driving habit of an insured customer. An Insurance can assign customers to risk groups and predict a possible risk. To make the simulator test attractive to someone, a bonus on the insurance payment can be helpful.
 
@@ -31,15 +33,17 @@ From business side it gives the possibility to get informations about the drivin
 
 ## Checklist features
 1. Done:
-2. In development:
-  - minimized concept
+  - concept
   - Standard driving simulator 
   - Controller integration
-3. Backlog:
   - game over on collision
   - fixed smartphone position in car
   - smartphone vibration or signalisation
-  - event when looking around (mirror looking)
-  - acceleration measurement
+2. In development:
   - speed measurement
+  - event when looking around (mirror looking)
+3. Backlog:
+  - performance optimisation
+  - acceleration measurement
   - deceleration before curves
+  - convert google maps to 3d models 
