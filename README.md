@@ -40,7 +40,7 @@ From business side it gives the possibility to get informations about the drivin
   - fixed smartphone position in car
   - smartphone vibration or signalisation
 2. In development:
-  - speed measurement
+  - speed measurement with tempomat 
   - event when looking around (mirror looking)
 3. Backlog:
   - performance optimisation
