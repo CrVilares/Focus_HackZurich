@@ -8,7 +8,6 @@ public class CarComponents : MonoBehaviour
     public Transform handleTrigger;
     public Transform door;
     public Transform sitPoint;
-
     public Transform driver;
 
     public CameraViewSetting cameraViewSetting;
@@ -96,6 +95,15 @@ public class CarComponents : MonoBehaviour
 		Debug.Log ("crash");
 		screenFlashing.state = ScreenFlash.FLASHSTATE.UP;
 		//Time.timeScale = 0; // this will freeze the game, stop
+
+		/* activate break */
+		vehicleController.brake = true;
+
+		/* Mute motor sounds on collision */
+		vehicleController.carSounds.nitro.mute = true;
+		vehicleController.carSounds.IdleEngine.mute = true;
+
+		/* take control of own car, disable vehicleController*/
 		vehicleController.enabled = false;
 	}
 
