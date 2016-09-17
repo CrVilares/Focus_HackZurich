@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
+using UnityEngine.VR;
 using System.Collections;
 
 public class raycastHit : MonoBehaviour {
-	public Camera camera;
+
+
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+		//Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+
+		Ray ray = new Ray (transform.position, transform.forward);
 		RaycastHit hit;
 
 		if (Physics.Raycast (ray, out hit, 100)) {
@@ -30,5 +33,4 @@ public class raycastHit : MonoBehaviour {
 
 		Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
 	}
-
 }

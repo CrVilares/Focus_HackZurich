@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Driver (TrafficSystem)/Scenes/GameOver.unity
+- path: Assets/Driver (TrafficSystem)/Scenes/SmallCity.unity
   isLoaded: 1
   isActive: 1
