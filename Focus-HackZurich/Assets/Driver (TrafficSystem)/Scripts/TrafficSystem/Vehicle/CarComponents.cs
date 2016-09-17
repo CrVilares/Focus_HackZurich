@@ -97,6 +97,8 @@ public class CarComponents : MonoBehaviour
 		//Time.timeScale = 0; // this will freeze the game, stop
 
 		/* activate break */
+		vehicleController.myRigidbody.velocity = Vector3.zero;
+		vehicleController.myRigidbody.angularVelocity = Vector3.zero;
 		vehicleController.brake = true;
 
 		/* Mute motor sounds on collision */
