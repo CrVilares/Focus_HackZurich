@@ -44,7 +44,7 @@ public class AIVehicle : MonoBehaviour
     public bool oneWay = false;
     [HideInInspector]
     public float widthDistance, minWidthDistance, maxWidthDistance;
-    [HideInInspector]
+ 
     public float vehicleSpeed = 0.0f;
     [HideInInspector]
     public AudioSource horn;

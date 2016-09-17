@@ -103,6 +103,7 @@
      <Compile Include="Assets\gameOverscript.cs" />
      <Compile Include="Assets\raycastHit.cs" />
      <Compile Include="Assets\resetScript.cs" />
+     <Compile Include="Assets\tachometer.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
