@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class raycastHit : MonoBehaviour {
-
+	public Camera camera;
 	// Use this for initialization
 	void Start () {
 	
@@ -10,14 +10,14 @@ public class raycastHit : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
-
-	void FixedUpdate()
-	{
+		Ray ray = camera.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
 
-		if (Physics.Raycast(transform.position, -Vector3.up, out hit))
-			Debug.Log("Found an object - distance: " + hit.collider.name);
+		if (Physics.Raycast (ray, out hit, 100)) {
+			Debug.Log (hit.collider.gameObject.name);
+		}
+
+		Debug.DrawRay(ray.origin, ray.direction * 100, Color.red);
 	}
+
 }
