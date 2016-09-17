@@ -100,6 +100,7 @@
      <Compile Include="Assets\PhoneRing.cs" />
      <Compile Include="Assets\ScreenFlash.cs" />
      <Compile Include="Assets\Timer.cs" />
+     <Compile Include="Assets\resetScript.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />

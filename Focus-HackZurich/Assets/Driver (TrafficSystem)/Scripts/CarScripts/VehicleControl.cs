@@ -9,8 +9,6 @@ public class VehicleControl : MonoBehaviour
 
 
 
-
-
     private AIVehicle AIVScript;
 
     // Wheels Setting /////////////////////////////////
