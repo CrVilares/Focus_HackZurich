@@ -1,4 +1,4 @@
-# Focus – A prevention driving simulator
+﻿# Focus – A prevention driving simulator
 
 ## Developer:
 Michel Hostettler & Cristofo Vilares
@@ -8,7 +8,7 @@ Focus is a prevention driving simulator, developed as a prototype during the Hac
 The purpose of the virtual reality prototype is to demonstrate how dangerous it is to use your smarphone during driving a car.
 
 ## Technologies:
-Focus is based on Unity5 and during the HackZurich. Based on an existing landscape project (SmallCity), we implemented some new features for insurance relevant topics.  During the test it runs on a Samsung S6 Edge with a Samsung Gear VR and an XBox controller or a Samsung controller. Thanks to Unity5 its no Problem to let Focus run on more platforms.
+Focus is based on Unity5 and was developed during the HackZurich. Based on an existing landscape project (SmallCity), we implemented some new features for insurance relevant topics.  During the test it runs on a Samsung S6 Edge with a Samsung Gear VR and an XBox controller or a Samsung controller. Thanks to Unity5 its no Problem to let Focus run on more platforms.
 
 ## The Vision:
 Every driver has some driving habits that may be dangerous. Our vision is to provide a solution, for showing someone, how dangerous a bad habit can be and to show what can happen in the worst case. A possible provider for the prevention driving simulator is an isurance company with specialisation on non-health products.
