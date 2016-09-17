@@ -99,7 +99,7 @@ public class CarComponents : MonoBehaviour
 		/* activate break */
 		vehicleController.myRigidbody.velocity = Vector3.zero;
 		vehicleController.myRigidbody.angularVelocity = Vector3.zero;
-		vehicleController.brake = true;
+
 
 		/* Mute motor sounds on collision */
 		vehicleController.carSounds.nitro.mute = true;
@@ -107,6 +107,8 @@ public class CarComponents : MonoBehaviour
 
 		/* take control of own car, disable vehicleController*/
 		vehicleController.enabled = false;
+
+		Application.LoadLevel ("GameOver");
 	}
 
 }
