@@ -15,6 +15,11 @@ public class gameOverscript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.Joystick1Button0)){
+			ApplicationModel.leftDoorCount = 0;
+			ApplicationModel.rightDoorCount = 0;
+			ApplicationModel.backMirrorCount = 0;
+			ApplicationModel.tachoCount = 0;
+			ApplicationModel.phoneCount = 0;
 			Application.LoadLevel ("SmallCity");
 		}
 		if(Input.GetKeyDown(KeyCode.Joystick1Button1)){
