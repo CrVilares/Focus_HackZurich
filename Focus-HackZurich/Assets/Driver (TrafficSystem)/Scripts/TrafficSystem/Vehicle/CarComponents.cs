@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 public class CarComponents : MonoBehaviour
 {
-
+	public VehicleControl vehicleController;
+	public ScreenFlash screenFlashing;
     public Transform handleTrigger;
     public Transform door;
     public Transform sitPoint;
@@ -87,5 +88,15 @@ public class CarComponents : MonoBehaviour
 
 
     }
+
+
+
+
+	void OnCollisionEnter(Collision collision) {
+		Debug.Log ("crash");
+		screenFlashing.state = ScreenFlash.FLASHSTATE.UP;
+		//Time.timeScale = 0; // this will freeze the game, stop
+		vehicleController.enabled = false;
+	}
 
 }
