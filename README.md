@@ -1,8 +1,7 @@
 # Focus – A prevention driving simulator
 
 ## Developer:
-Michel Hostettler
-Cristofo Vilares
+Michel Hostettler & Cristofo Vilares
 
 ## About Focus:
 Focus is a prevention driving simulator, developed as a prototype during the HackZurich 2016.
@@ -14,7 +13,7 @@ Focus is based on Unity3d and during the HackZurich. During the test it will run
 ## The Vision:
 Every driver has some driving habits that may be dangerous. Our vision is to provide a solution, for showing someone, how dangerous a bad habit can be and to show what can happen in the worst case. A possible provider for the prevention driving simulator is an isurance company with specialisation on non-health products. 
 
-From business side it gives the possibility to get informations about the driving habit of an insured customer. An Insurance can assign customers to risk groups and predict a possible risk. To make the simulator test attractive to someone, a bonus on the insurance payment.
+From business side it gives the possibility to get informations about the driving habit of an insured customer. An Insurance can assign customers to risk groups and predict a possible risk. To make the simulator test attractive to someone, a bonus on the insurance payment can be helpful.
 
 ## Feature ideas:
 1. Customer prevention:
