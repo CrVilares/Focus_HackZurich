@@ -3,6 +3,9 @@
 ## Developer:
 Michel Hostettler & Cristofo Vilares
 
+## APK-Location
+https://github.com/CrVilares/Focus_HackZurich/blob/branche/Focus-HackZurich/Focus-HackZurich.apk
+
 ## About Focus:
 Focus is a prevention driving simulator, developed as a prototype during the HackZurich 2016.
 The purpose of the virtual reality prototype is to demonstrate how dangerous it is to use your smarphone during driving a car.
